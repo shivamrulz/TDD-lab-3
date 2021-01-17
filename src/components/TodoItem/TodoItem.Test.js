@@ -13,7 +13,7 @@ describe('<TodoItem /> tests', () => {
 
     it('should render todo item with checkbox.', () => {
         render(<TodoItem todo={mockData[0]} />);
-        expect(screen.getByTestId('check-1')).toBeInTheDocument();
+        expect(screen.getByTestId('checkbox-1')).toBeInTheDocument();
         expect(screen.queryByText(/eat breakfast/i)).toBeInTheDocument();
     });
 });
