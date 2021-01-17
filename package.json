@@ -38,8 +38,5 @@
   "devDependencies": {
     "jest-environment-jsdom-sixteen": "^1.0.3",
     "jest-fetch-mock": "^3.0.3"
-  },
-  "jest": {
-    "setupTestFrameworkScriptFile": "./src/setupTests.js"
   }
 }
